@@ -35,8 +35,8 @@ Serial1.println(fsr3);
 
 void establishContact () {
   while (Serial1.available() <= 0) {
-    //Serial1.print('A');
-    Serial1.println("0,0,0");
-    delay(300);
+    Serial1.println("A");
+//  Serial1.println("0,0,0");
+    //delay(100);
   }
 }
